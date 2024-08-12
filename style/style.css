@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +9,10 @@
 }
 
 body{
-    max-width: 1536px;
+    width: 100%;
+    height: 100%;
+    /* height: 100vh; */
+    /* background-color: black; */
 }
 
 :root{
@@ -24,6 +29,14 @@ body{
     font-style: normal;
 }
 
+/* miama font */
+.miama-font{
+    font-family: 'Miama', sans-serif;  
+    /* font-size: 4.5rem; */
+    font-size: 5.134vw;
+    font-weight: 400;                                            
+}
+
 /* shared styles */
 
 .display-flex{
@@ -32,27 +45,39 @@ body{
 
 /* navigation bar styles */
 header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    /* background-color: black; */
+    background: linear-gradient(to bottom, #000000, #434343, #000000);
+}
+
+.nav-section{
+    /* max-width: 66.25rem; */
+    /* width: 80%; */
+    max-width: 80vw;
+    /* border: 2px solid red; */
+    /* border: 0.132vw solid red; */
+    /* padding-top: 40px; */
+    margin: 0 auto;
 }
 .navbar{
-    padding-top: 50px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    /* gap: 200px; */
 }
 
 .nav-items{
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 2.4rem;
-    padding: 0.5rem;
+    border: 0.05vw solid rgba(255, 255, 255, 0.1);
+    /* border: 2vw solid red; */
+    border-radius: 2.528vw;
+    padding: 0.527vw;
     list-style: none;
-    gap: 47px;
+    gap: 3.094vw;
     align-items: center;
-    font-size: 1.125rem;
+    font-size: 1.185vw;
     color: var(--primary-color);
 }
 
 .nav-title{
-    font-size: 2.25rem;
+    font-size: 2.37vw;
     font-weight: 800;
     color: var(--unique-color);
     font-style: italic;
@@ -61,17 +86,169 @@ header{
 .nav-btn{
     background-color: var(--unique-color);
     font-family: "Inter", sans-serif;
-    font-size: 1.125rem;
+    font-size: 1.185vw;
+    font-weight: 400;
     color: var(--primary-color);
     /* width: 92px;
     height: 38px; */
-    padding: 8px 20px;
+    padding: 0.527vw 1.316vw;
     border-radius: 3rem;
     border: none;
 }
 
+.nav-content-btn-1{
+    background-color: var(--unique-color);
+    border: none;
+    color: var(--primary-color);
+    padding: 0.658vw 1.975vw;
+    border-radius: 2.106vw;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 1.185vw;
+}
 
+.nav-content-btn-2{
+    background-color: black;
+    border: 0.03vw solid rgb(255, 255, 255);;
+    color: var(--primary-color);
+    padding: 0.658vw 1.975vw;
+    border-radius: 2.106vw;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 1.185vw;
+}
 
+.nav-banner-content h1,p,div{
+    padding-top: 1.053vw;
+}
+
+.nav-banner-content h1{
+    /* font-size: 4.5rem; */
+    font-size: 5.134vw;
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+.nav-banner-content p{
+    color: var(--secondary-color);
+    font-size: 1.053vw;
+}
+
+/* .nav-banner-content span{
+    
+} */
+
+.nav-banner{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-banner-img{
+    background-image: url(../images/Images2.png);
+    width: 22.97vw;
+    height: 38.178vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tutorial-btn{
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    border: 0.066vw solid rgb(75, 73, 73);
+    /* border: none; */
+    /* width: 12rem; */
+    width: 12.638vw;
+
+    /* height: 6rem; */
+    /* height: 9.6vh; */
+    height: 6.319vw;
+    border-radius: 0.79vw;
+    background: rgba(48, 48, 48, 0.54);
+    /* opacity: 0.10; */
+    /* filter: opacity(50%); */
+    backdrop-filter: blur(0.658vw);
+    color: var(--primary-color);
+    position: relative;
+    /* top: 150px; */
+    /* top: 25.2rem; */
+    top: 26.54vw;
+    /* left: -6.25rem; */
+    left: -6.582vw;
+    /* left: 47.75rem; */
+    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 2px; */
+    padding: 0;
+}
+
+.tutorial-btn-circle{
+    /* width: 40px; */
+    width: 2.633vw;
+    /* height: 40px; */
+    height: 2.633vw;
+    border-radius: 50%;
+    background-color: var(--unique-color);
+}
+
+.tutorial-btn-text{
+    /* border: 2px solid red; */
+    /* min-width: fit-content; */
+    /* height: fit-content; */
+    padding: 0;
+    /* margin: 0; */
+    /* gap: none; */
+}
+
+.tutorial-btn-text > p{
+    /* margin-top: 0px; */
+    padding-top: 0.329vw;
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1.053vw;
+    font-weight: 400;
+}
+
+.tutorial-btn-text > h3{
+    padding-top: 0;
+    font-size: 1.58vw;
+    font-weight: 900;
+}
+
+.free-workout-videos{
+    width: 12.507vw;
+    height: 6.451vw;   
+    border: 0.05vw solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(1.316vw);
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    left: 14.481vw;
+    top: 1.316vw;
+    /* flex-direction: column; */
+    /* padding: 20px; */
+    /* margin: 0; */
+    padding-top: 0.79vw;
+    padding-left: 1.975vw;
+    padding-right: 1.975vw;
+    /* padding-bottom: 10px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+
+.free-workout-videos > h2{
+    color: var(--primary-color);
+    font-size: 2.633vw;
+    font-weight: 900;
+    padding-top: 0;
+    /* margin-top: 0; */
+}
+
+.free-workout-videos > p{
+    color: var(--secondary-color);
+    font-size: 0.79vw;
+    font-weight: 400;
+    padding-top: 0;
+}
 
 
 
