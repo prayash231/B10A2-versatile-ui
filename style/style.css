@@ -12,7 +12,7 @@ body{
     width: 100%;
     height: 100%;
     /* height: 100vh; */
-    /* background-color: black; */
+    background-color: black;
 }
 
 :root{
@@ -260,6 +260,35 @@ header{
     font-weight: 400;
     padding-top: 0;
 }
+/* nav section ends here */
+
+/* change your habit section starts here */
+
+.habit-section{
+    max-width: 80vw;
+    height: 29vw;
+    border: 0.05vw solid red;
+    margin: 0 auto;
+}
+.habit-header{
+    width: 45vw;
+    /* height: 7.9vw; */
+    border: 0.05vw solid red;
+    margin: 0 auto;
+    text-align: center;
+}
+.habit-header > h3{
+    color: var(--primary-color);
+    font-size: 3.15vw;
+    font-weight: 900;
+}
+.habit-header > p{
+    color: var(--secondary-color);
+    font-size: 0.91vw;
+    font-weight: 400;
+    /* line-break:; */
+    padding-top: 0.9vw;
+}
 
 @media screen and (max-width: 576px){
     .nav-section{
@@ -350,7 +379,8 @@ header{
         margin: 0 auto;
         width: 61.285vw;
         /* width: 80vw; */
-        height: 102.083vw;
+        /* height: 102.083vw; */
+        height: 87vw;
         /* padding-left: 10px; */
     }
     .tutorial-btn{
@@ -374,9 +404,9 @@ header{
         /* visibility: hidden; */
     }
     .tutorial-btn-circle > i{
-        /* visibility: visible; */
+        visibility: visible;
         position: relative;
-        left: 1.91vw;
+        left: 1.9vw;
         top: -0.134vw;
     }
     .tutorial-btn-text > h3{
@@ -413,6 +443,37 @@ header{
     .free-workout-videos > p{
         font-size: 2.083vw;
         
+    }
+
+    /* change your habit-section starts here */
+    .habit-section{
+        padding-top: 0;
+        /* border: none; */
+    }
+    .habit-header{
+        width: 55vw;
+        /* height: 21.528vw; */
+        /* height: 7.9vw; */
+        /* border: 0.05vw solid red; */
+        /* margin: 0 auto; */
+        text-align: center;
+        /* text-align:left; */
+        /* text-decoration: none; */ 
+        /* border: none; */
+        padding-top:0;
+    }
+    .habit-header > h3{
+        color: var(--primary-color);
+        font-size: 5.55vw;
+        text-wrap: nowrap;
+        padding-top: 0;
+    }
+    .habit-header > p{
+        color: var(--secondary-color);
+        padding-top: 2.431vw;
+        font-size: 2.431vw;
+        line-height: 4.167vw;
+        /* line-break:auto; */
     }
 }
 
