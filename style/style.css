@@ -54,7 +54,7 @@ header{
     /* width: 80%; */
     max-width: 80vw;
     /* border: 2px solid red; */
-    border: 0.132vw solid red;
+    /* border: 0.132vw solid red; */
     padding-top: 2.633vw;
     margin: 0 auto;
 }
@@ -263,17 +263,18 @@ header{
 /* nav section ends here */
 
 /* change your habit section starts here */
-
 .habit-section{
     max-width: 80vw;
     height: 29vw;
-    border: 0.05vw solid red;
+    /* border: 0.05vw solid red; */
     margin: 0 auto;
 }
+
+/* habit-header section starts here */
 .habit-header{
     width: 45vw;
     /* height: 7.9vw; */
-    border: 0.05vw solid red;
+    /* border: 0.05vw solid red; */
     margin: 0 auto;
     text-align: center;
 }
@@ -289,6 +290,87 @@ header{
     /* line-break:; */
     padding-top: 0.9vw;
 }
+/* habit header section ends here */
+
+/* habit-rules section starts here */
+.habit-rules{
+    /* border: 2px solid red; */
+    padding-top: 2.633vw;
+    /* height: 100vw; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2.633vw;
+    /* justify-content: space-between; */
+    /* align-content: space-between; */
+}
+.habit-rules h3{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 1.185vw;
+    font-weight: 600;
+    padding-top: 1.7vw;
+}
+.habit-rules p{
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 0.922vw;
+    padding-top: 0.395vw;
+    line-height: 1.185vw;
+}
+.habit-rule-1{
+    /* width: 15.205vw; */
+    /* height: 18.036vw; */
+    height: 20.036vw;
+    /* border: 0.03vw solid red; */
+}
+.habit-rule-1 > img{
+    width: 11.848vw;
+    height: 11.848vw;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.habit-rule-2{
+    /* width: 15.205vw; */
+    /* height: 18.036vw; */
+    height: 20.036vw;
+    /* border: 0.03vw solid red; */
+}
+.habit-rule-2 > img{
+    width: 11.848vw;
+    height: 11.848vw;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.habit-rule-3{
+    /* width: 15.205vw; */
+    /* height: 18.036vw; */
+    height: 20.036vw;
+    /* border: 0.03vw solid red; */
+}
+.habit-rule-3 > img{
+    width: 11.848vw;
+    height: 11.848vw;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.habit-rule-4{
+    /* width: 15.205vw; */
+    /* height: 18.036vw; */
+    height: 20.036vw;
+    /* border: 0.03vw solid red; */
+}
+.habit-rule-4 > img{
+    width: 11.848vw;
+    height: 11.848vw;
+    display: block;
+    margin: 0 auto;
+    /* border-radius: 32.912vw; */
+    border-radius: 50%;
+}
+
 
 @media screen and (max-width: 576px){
     .nav-section{
@@ -450,6 +532,8 @@ header{
         padding-top: 0;
         /* border: none; */
     }
+
+    /* habit header section starts here */
     .habit-header{
         width: 55vw;
         /* height: 21.528vw; */
@@ -474,6 +558,45 @@ header{
         font-size: 2.431vw;
         line-height: 4.167vw;
         /* line-break:auto; */
+    }
+    /* header header section ends here */
+
+    /* habit rules section starts here */
+    .habit-rules{
+        grid-template-columns: repeat(1, 0.5fr);
+        /* column-gap: 0; */
+        /* align-items: center;
+        justify-items: center; */
+        justify-content: center;
+        row-gap: 6.944vw;
+        padding-top: 7.944vw;
+        /* height: 100vw; */
+    }
+    .habit-rule-1,.habit-rule-2,.habit-rule-3,.habit-rule-4{
+        /* width: 40.104vw; */
+        height: 45.944vw;
+        /* justify-self: center; */
+        /* border: 0.03vw solid red; */
+    }
+    .habit-rules img{
+        height: 31.25vw;
+        width: 31.25vw;
+    }
+    .habit-rules h3{
+        color: var(--primary-color);
+        text-align: center;
+        font-size: 3.125vw;
+        font-weight: 600;
+        padding-top: 4.514vw;
+    }
+    .habit-rules p{
+        color: var(--secondary-color);
+        text-align: center;
+        font-size: 2.431vw;
+        font-weight: 400;
+        padding-top: 1.5vw;
+        line-height: 3.125vw;
+        /* text-wrap: wrap; */
     }
 }
 
