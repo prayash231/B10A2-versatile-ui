@@ -429,19 +429,11 @@ header{
     border-radius: 1.185vw;
     /* border-radius: 16px; */
 }
- /* .run-image{
-    background-image: url(../images/run.jpg);
-    width: 24.092vw;
-    height: 22.537vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 500px 350px;
- } */
 
 /* run section ends here */
 .bmi-calculator{
     max-width: 100vw;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .bmi-calculator > h1{
     color: var(--primary-color);
@@ -458,6 +450,123 @@ header{
 }
 
 /* team section starts here */
+.team-content{
+   max-width: 80vw;
+   margin: 0 auto;
+   margin-top: 2.633vw;
+}
+.team-content h1{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 3.16vw;
+    font-weight: 900;
+}
+.team-content p{
+    color: var(--secondary-color);
+    font-size: 0.922vw;
+    text-align: center;
+}
+
+/* trainer section starts here */
+.trainers-information{
+    max-width: 80vw;
+    /* height: 45vw; */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1.185vw;
+    margin: 0 auto;
+    margin-top: 3.818vw;
+}
+.all-trainers{
+    padding-top: 1.975vw;
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(1, 1fr); */
+    /* justify-content: center; */
+    justify-items: center;
+    /* align-items: center; */
+    align-content: center;
+}
+
+.trainer > img{
+   width: 22.503vw; 
+   height: 17.904vw;
+   border-radius: 1.185vw;
+}
+
+.trainer-name{
+  position: relative;
+  top: -4.739vw;
+  left: 0.987vw;
+}
+
+.trainer-name > h3{
+    color: var(--primary-color);
+    font-size: 1.185vw;
+}
+
+.trainer-name > p{
+    color: var(--secondary-color);
+    font-size: 0.922vw;
+    padding-top: 0.3vw;
+}
+/* trainer section end here */
+
+/* footer section starts here */
+
+.footer-section{
+    max-width: 100vw;
+    height: 32.254vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 5.949vw;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.footer-title{
+    width: 29.16vw;
+    height: 11.585vw;
+}
+.footer-title > h3{
+    color: var(--unique-color);
+    font-style: italic;
+    font-size: 3.949vw;
+    font-weight: 800;
+}
+
+.footer-title > p{
+    color: var(--secondary-color);
+    /* font-size: 0.922vw; */
+    font-size: 1.053vw;
+}
+.footer-contacts{
+    /* width: 11.914vw;
+    height: 16.39vw; */
+}
+.footer-contacts > h3{
+    color: var(--primary-color);
+    font-size: 2.106vw;
+    font-weight: 700;
+}
+.footer-contacts > p{
+    color: var(--secondary-color);
+    font-size: 1.316vw;
+}
+.footer-services{
+    /* width: 11.914vw;
+    height: 16.39vw; */
+}
+.footer-services > h3{
+    color: var(--primary-color);
+    font-size: 2.106vw;
+    font-weight: 700;
+}
+.footer-services > p{
+    color: var(--secondary-color);
+    font-size: 1.316vw;
+}
+/* footer section ends here */
+
 @media screen and (max-width: 576px){
     .nav-section{
         /* max-width: 66.25rem; */
@@ -744,6 +853,132 @@ header{
         position: relative;
         top: 32.042vw;
         /* left: -0.5px; */
+    }
+
+    /* trainer section starts here */
+
+    .team-content h1{
+        /* color: var(--primary-color); */
+        /* text-align: center; */
+        font-size: 5.556vw;
+        /* font-weight: 900; */
+    }
+    .team-content p{
+        /* color: var(--secondary-color); */
+        font-size: 2.431vw;
+        line-height: 3.167vw;
+        /* text-align: center; */
+    }
+
+    .all-trainers{
+        padding-top: 5.208vw;
+        display: grid;
+        /* grid-template-columns: auto auto auto; */
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-rows: repeat(1, 1fr); */
+        /* justify-content: center; */
+        /* justify-items: center; */
+        /* align-items: center; */
+        /* align-content: center; */
+    }
+    
+    .trainer > img{
+       width: 54.34vw; 
+       height: 47.222vw;
+       border-radius: 3.125vw;
+    }
+    
+    .trainer-name{
+      position: relative;
+      top: -12vw;
+      left: 5vw;
+    }
+    
+    .trainer-name > h3{
+        /* color: var(--primary-color); */
+        font-size: 3.125vw;
+    }
+    
+    .trainer-name > p{
+        /* color: var(--secondary-color); */
+        font-size: 2.431vw;
+        padding-top: 0.3vw;
+    }
+
+    /* footer section starts here */
+    .footer-section{
+        padding-top: 0;
+        /* margin-top: 0; */
+        height: 160vw;
+        flex-direction: column;
+    }
+    .footer-title{
+        width: 54.514vw;
+        /* height: 0; */
+        /* padding-top: 0; */
+        /* padding-bottom: 0; */
+        position: relative;
+        top: -8.417vw;
+        padding-left: 12.153vw;
+    }
+    .footer-title > h3{
+        padding-bottom: 2.778vw;
+        color: var(--unique-color);
+        font-style: italic;
+        /* font-size: 10.417vw; */
+        font-size: 12.153vw;
+        font-weight: 800;
+    }
+    
+    .footer-title > p{
+        color: var(--secondary-color);
+        /* font-size: 0.922vw; */
+        font-size: 2.778vw;
+        line-height: 4.167vw;
+        /* text-wrap: nowrap; */
+        /* overflow:; */
+    }
+    .footer-contacts{
+        /* width: 11.914vw;
+        height: 16.39vw; */
+        position: relative;
+        top: 8.417vw;
+        padding-left: 12.153vw;
+    }
+    .footer-contacts > h3{
+        color: var(--primary-color);
+        font-size: 5.556vw;
+        font-weight: 700;
+        padding-bottom: 3.472vw;
+    }
+    .footer-contacts > p{
+        color: var(--secondary-color);
+        font-size: 3.993vw;
+        line-height: 6.944vw;
+        /* line-height: 50px; */
+    }
+    .footer-services{
+        /* width: 11.914vw;
+        height: 16.39vw; */
+        position: relative;
+        /* top: 15.417vw; */
+        /* top: 0.417vw; */
+        /* top: -0.1px; */
+        top: 0.153vw;
+        bottom: -8.681vw;
+        padding-left: 12.153vw;
+        
+    }
+    .footer-services > h3{
+        color: var(--primary-color);
+        font-size: 5.556vw;
+        font-weight: 700;
+        padding-bottom: 3.472vw;
+    }
+    .footer-services > p{
+        color: var(--secondary-color);
+        font-size: 3.993vw;
+        line-height: 6.944vw;
     }
 }
 
