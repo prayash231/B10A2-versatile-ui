@@ -91,17 +91,57 @@
                 <button>Join Now</button>
             </div>
             <div class="run-image">
-                <img src="./images/run.jpg" alt="">
+                <img src="./images/run-crop.jpg" alt="">
             </div>
           </div>
 
           <!-- BMI calculator section starts here -->
-          <div class="bmi-calculator">
+          <div class="bmi-calculator-description">
              <h1>BMI Calculator</h1>
-             <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+             <p>A BMI calculator estimates body fat by dividing weight by height squared, indicating if weight is healthy.</p>
           </div>
-          <div class="bmi-calculator-chart">
-
+          <div class="bmi-calculator-measurement display-flex">
+             <div class="bmi-calculator-chart">
+                <h3>BMI Calculator Chart</h3>
+                <table class="table">
+                    <tr>
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 - and Above</td>
+                        <td>Obese</td>
+                    </tr>
+                </table>
+             </div>
+             <div class="calculate-your-bmi">
+                <h3>Calculate your BMI</h3>
+                <p>The BMI calculation formula divides weight in kilograms by height in meters squared, <br> assessing body weight status.</p>
+                <form class="bmi-form">
+                    <input type="number" name="" class="input" id="height" placeholder="Height/cm">
+                    <input type="number" name="" class="input" id="weight" placeholder="Weight/kg"> <br>
+                    <input type="number" name="" class="input" id="age" placeholder="Age">
+                    <!-- <input type="text" name="" id="gender" placeholder="Sex"> -->
+                    <select name="" id="sex" class="input">
+                        <option value="" disabled selected>Sex</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">Others</option>
+                    </select>
+                </form>
+             </div>
           </div>
 
           <!-- team section starts here -->
@@ -113,6 +153,7 @@
             <div class="all-trainers">
                 <div class="trainer" id="trainer-1">
                     <img src="./images/trainer1.png" alt="">
+                     <!-- <div class="instructor"><img src="./images/trainer1.png" alt=""></div> -->
                     <div class="trainer-name">
                         <h3>Jorame Bell</h3>
                         <p>Trainer</p>
@@ -120,6 +161,7 @@
                 </div>
                 <div class="trainer" id="trainer-2">
                     <img src="./images/trainer2.png" alt="">
+                    <!-- <div class="instructor"><img src="./images/trainer2.png" alt=""></div> -->
                     <div class="trainer-name">
                         <h3>Cameron Willian</h3>
                         <p>Trainer</p>
@@ -155,6 +197,18 @@
                 </div>
            </div>
            </div>
+
+           <!-- need a free consultration -->
+            <div class="free-consultration">
+                <h3 class="consultration-heading miama-font">Need a Free Consultration?</h3>
+                <p class="consultation-msg">Unlock your fitness potential! Book a free consultation today with our <br> expert trainers. Start your journey to a healthier you!</p>
+                <div class="user-information">
+                    <div class="user-data" id="user-name">Your Name</div>
+                    <div class="user-data" id="user-email">Your Email</div>
+                    <div class="user-data" id="user-phoneNumber">Your Phone Number</div>
+                </div>
+                <button class="consultration-request">REQUEST</button>
+            </div>
     </main>
     <footer>
         <div class="footer-section">
