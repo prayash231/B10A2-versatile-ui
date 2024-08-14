@@ -513,11 +513,18 @@ header{
 /* trainer section end here */
 
 /* footer section starts here */
-
+footer{
+    /* max-width: 100vw;
+    height: 32.254vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 5.949vw; */
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 100vw;
+}
 .footer-section{
     max-width: 100vw;
     height: 32.254vw;
-    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.1); */
     margin-top: 5.949vw;
     display: flex;
     justify-content: space-evenly;
@@ -538,6 +545,7 @@ header{
     color: var(--secondary-color);
     /* font-size: 0.922vw; */
     font-size: 1.053vw;
+    line-height: 1.58vw;
 }
 .footer-contacts{
     /* width: 11.914vw;
@@ -564,6 +572,20 @@ header{
 .footer-services > p{
     color: var(--secondary-color);
     font-size: 1.316vw;
+}
+.hr-line{
+    width: 80vw;
+    margin: 0 auto;
+    border-top: 0.132vw solid #FFFFFF1A;
+    position: relative;
+    top: -9.215vw;
+}
+.copywrite{
+    text-align: center;
+    font-size: 1.316vw;
+    color: var(--secondary-color); 
+    position: relative; 
+    top: -6.582vw;
 }
 /* footer section ends here */
 
@@ -906,10 +928,13 @@ header{
     }
 
     /* footer section starts here */
+    footer{
+        /* height: 160vw; */
+    }
     .footer-section{
         padding-top: 0;
-        /* margin-top: 0; */
         height: 160vw;
+        /* margin-top: 0; */
         flex-direction: column;
     }
     .footer-title{
@@ -979,6 +1004,30 @@ header{
         color: var(--secondary-color);
         font-size: 3.993vw;
         line-height: 6.944vw;
+    }
+    .hr-line{
+        width: 80vw;
+        /* width: 61.458vw; */
+        /* margin: 0 auto; */
+        /* margin: 80px; */
+        /* margin-left: 20px; */
+        border-top: 0.347vw solid #FFFFFF1A;
+        position: relative;
+        /* top: -9.215vw; */
+        top: -8vw;
+        left: 2.257vw;
+    }
+    .copywrite{
+        /* text-align: center; */
+        /* text-align: left; */
+        font-size: 3.472vw;
+        color: var(--secondary-color); 
+        position: relative; 
+        top: -6.582vw;
+        /* top: -17.361vw; */
+        left: -10.417vw;
+        /* left: -40px; */
+        /* left: 60px; */
     }
 }
 
