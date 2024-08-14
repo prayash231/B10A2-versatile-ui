@@ -428,6 +428,7 @@ header{
 .bmi-calculator-description{
     max-width: 40vw;
     margin: 0 auto;
+    margin-top: 1.316vw;
     /* margin: 0 auto; */
 }
 .bmi-calculator-description > h1{
@@ -614,11 +615,14 @@ table, th, td{
     background-color: rgba(255, 255, 255, 0.1);
 }
 .consultration-heading{
+    padding-top: 3vw;
     color: antiquewhite;
     text-align: center;
     font-weight: 800;
     /* font-weight: 600; */
-    font-size: 6.16vw;
+    font-size: 6vw;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .consultation-msg{
     color: var(--secondary-color);
@@ -1037,11 +1041,138 @@ footer{
     }
     /* bmi calculator section starts here */
 
-    /* .bmi-calculator-measurement{
+    .bmi-calculator-description{
+        max-width: 80vw;
+        margin: 0 auto;
+        margin-top: 3.472vw;
+        /* margin: 0 auto; */
+    }
+    .bmi-calculator-description > h1{
+        color: var(--primary-color);
+        font-size: 5vw;
+        font-weight: 900;
+        /* text-align: center; */
+    }
+    .bmi-calculator-description > p{
+        color: var(--secondary-color);
+        font-size: 2.431vw;
+        /* text-align: center; */
+    }
+
+    .bmi-calculator-measurement{
+        height: 135vw;
         flex-direction: column;
-    } */
-     
+        padding-left: 11vw;
+        /* align-items: center; */
+    }
+
+    .bmi-calculator-chart > h3{
+        color: var(--primary-color);
+        font-size: 3.778vw;
+        font-weight: 900;
+        /* text-align: center; */
+    }
+    .table{
+        /* width: 20.405vw; */
+        width: 53.819vw;
+        /* height: 14.218vw; */
+        height: 37.5vw;
+        text-align: center;
+        margin-top: 3.291vw;
+    }
+    th{
+        color: var(--primary-color);
+        /* font-size: 1.053vw; */
+        font-size: 2.778vw;
+        font-weight: 500;
+    }
+    td{
+        color: var(--secondary-color);
+        /* font-size: 0.922vw; */
+        font-size: 2.431vw;
+    }
+    table, th, td{
+        border: 0.066vw solid rgba(255, 255, 255, 0.1);
+        border-collapse: collapse;
+    }
+    
+    .calculate-your-bmi > h3{
+        color: var(--primary-color);
+        /* font-size: 1.843vw; */
+        font-size: 4vw;
+        font-weight: 900;
+    }
+    .calculate-your-bmi > p{
+        color: var(--secondary-color);
+        /* font-size: 0.922vw; */
+        font-size: 3.4vw;
+        line-height: 3.58vw;
+        padding-top: 3vw;
+        /* text-wrap: wrap; */
+    }
+    
+    /* from section starts here */
+    .bmi-form{
+        margin-top: 3.316vw;
+    
+    }
+    .input{
+        /* width: 18.431vw; */
+        width: 29.601vw;
+        /* height: 3.16vw; */
+        height: 8.333vw;
+        margin-top: 2.79vw;
+        /* border-radius: 0.527vw; */
+        border-radius: 1.389vw;
+        padding-left: 1.658vw;
+        font-size: 2.778vw;
+        border: none;
+        border-right: 2.053vw solid transparent;
+        background-color: rgba(255, 255, 255, 0.1);
+        
+        /* color: var(--secondary-color); */
+        /* padding-right: 50px; */
+    }
+    #weight{
+        margin-left: 1.329vw;
+    }
+    #gender{
+        color:#6f6e6e;
+        margin-left: 1.329vw;
+    }
+    #factors{
+        /* width: 37.52vw; */
+        /* width: 37.981vw; */
+        width: 61.285vw;
+        /* height: 3.16vw; */
+        height: 8.333vw;
+        border-radius: 1.527vw;
+        background-color: rgba(255, 255, 255, 0.1);
+        color:#6f6e6e;
+        border: none;
+        border-right: 2.053vw solid transparent;
+        padding-left: 1.658vw;
+        font-size: 2.778vw;
+        margin-top: 2vw;
+    }
+    
+    .bmi-calcutale-button{
+        /* width: 14.745vw; */
+        width: 38.889vw;
+        /* height: 3.555vw; */
+        height: 9.375vw;
+        font-size: 3.125vw;
+        font-weight: 600;
+        color: var(--primary-color);
+        background-color: var(--unique-color);
+        /* border-radius: 2.765vw; */
+        border-radius: 7.292vw;
+        border: none;
+        margin-top: 4.646vw;
+    }
+
     /* bmi calculator section ends here */
+ 
     
     /* trainer section starts here */
 
@@ -1095,14 +1226,14 @@ footer{
 
     /* free consultration section starts here */
     .free-consultration{
-        height: 60vw;
+        height: 70vw;
     }
     .consultration-heading{
         color: antiquewhite;
         text-align: center;
         font-weight: 800;
         /* font-weight: 600; */
-        font-size: 9vw;
+        font-size: 8vw;
     }
     .consultation-msg{
         color: var(--secondary-color);
