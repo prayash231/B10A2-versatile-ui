@@ -863,12 +863,14 @@ footer{
     }
     .tutorial-btn-circle > i{
         visibility: visible;
+        /* margin: 0 auto; */
         position: relative;
         /* left: 1.9vw; */
-        left: 12px;
+        left: 11px;
         /* padding-left: 11px; */
         /* top: -0.134vw; */
         /* top: 0px; */
+        top: 1px;
         /* padding-top: 3px; */
     }
     .tutorial-btn-text > h3{
@@ -1170,11 +1172,10 @@ footer{
         border: none;
         margin-top: 4.646vw;
     }
-
-    /* bmi calculator section ends here */
+ /* bmi calculator section ends here */
  
     
-    /* trainer section starts here */
+/* trainer section starts here */
 
     .team-content h1{
         /* color: var(--primary-color); */
@@ -1281,6 +1282,7 @@ footer{
         top: 18vw;
         color: var(--secondary-color);
         background-color: #434343;
+        /* background: var(--unique-color); */
         border: none;
         /* font-size: 1.316vw; */
         font-size: 3vw;
