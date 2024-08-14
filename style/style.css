@@ -101,6 +101,9 @@ header{
     border: none;
 }
 
+.nav-banner-content-btn{
+    margin-top: 1vw;
+}
 .nav-content-btn-1{
     background-color: var(--unique-color);
     border: none;
