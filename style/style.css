@@ -1206,6 +1206,10 @@ footer{
        height: 47.222vw;
        border-radius: 3.125vw;
     }
+
+    #trainer-1, #trainer-4{
+        display: none;
+    }
     
     .trainer-name{
       position: relative;
