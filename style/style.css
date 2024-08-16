@@ -833,7 +833,8 @@ footer{
         width: 40.34vw;
         /* background-color: #292828; */
         /* background-color:#434343; */
-        background-color: #302e2e;
+        /* background-color: #302e2e; */
+        background-color: transparent;
         border: 0.174vw solid rgb(255, 255, 255);
         color: var(--primary-color);
         padding: 2.778vw 6.944vw;
